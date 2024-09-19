@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Gourmet Online Restaurant</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <h3>Margherita Pizza</h3>
+      <p>Delicious cheese and tomato pizza.</p>
+      <p>Price: $10</p>
+      <button class="add-to-cart" data-item="Margherita Pizza" data-price="10">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+      <h3>Spaghetti Bolognese</h3>
+      <p>Classic Italian pasta with rich meat sauce.</p>
+      <p>Price: $12</p>
+      <button class="add-to-cart" data-item="Spaghetti Bolognese" data-price="12">Add to Cart</button>
+    </div>
+    <!-- More items can be added similarly -->
+  </section>
+
+  <section id="order">
+    <h2>Order Summary</h2>
+    <div id="cart-items">
+      <p>Your cart is empty.</p>
+    </div>
+    <div id="total-price">
+      <p>Total Price: $0</p>
+    </div>
+    <button id="place-order">Place Order</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Gourmet Online Restaurant. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
